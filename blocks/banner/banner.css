@@ -1,0 +1,24 @@
+.banner > div {
+    display: flex;
+    flex-direction: row;
+    background-color: blue;   
+  }
+  
+  .banner img {
+    width: 100%;
+  } 
+  
+  .banner > div > .banner-img-col img {
+    display: flex;
+  }
+  
+  @media (width >= 900px) {
+    .banner > div {
+      align-items: center;
+      flex-direction: unset;
+      gap: 24px;
+    }
+  
+  
+  }
+  
