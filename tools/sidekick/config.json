@@ -2,6 +2,16 @@
     "project": "EDS Training",
     "plugins": [
         {
+            "id": "aem library",
+            "title":"AEM Assests",
+            "environments":["edit","dev"],
+            "url":"https://new.express.adobe.com/solutions/CQ-assests-selectors/static-assests/resources/franklin/assest-selector.html?rail=false",
+            "passConfig": true,
+            "passReferrer": true,
+            "isPalette": true,
+            "paletteRect":"top:50px; bottom:10px; right: 10px; left:auto; width: 400px; height: calc(100vh - 60px)"
+        },
+        {
             "id": "google-assist",
             "title":"Google Assistent",
             "environments":["edit","dev","preview","live","prod"],
@@ -13,7 +23,9 @@
             ],
             "includePaths":[
                 "**/fr/placeHolders**"
-            ]
+            ],
+            "isPalette": true,
+            "paletteRect":"top:50px; bottom:10px; right: 10px; left:auto; width: 400px; height: calc(100vh - 60px)"
         },
         {
             "id": "tootls",
