@@ -1,0 +1,36 @@
+.items > div {
+    display: flex;
+   
+    
+  }
+
+  .items .list {
+    list-style-type: none;  /* Removes the default bullets */
+    padding: 0;             /* Removes padding */
+    margin: 0;              /* Removes margin */
+    display: flex;          /* Enables Flexbox on the <ul> */
+    flex-direction: column; /* Arranges the list items vertically (default) */
+    gap: 10px; 
+  }
+
+  .items .list-item {
+    display: flex;          /* Enables Flexbox on each <li> */
+    align-items: center;    /* Vertically center the items in the <li> */
+    padding: 10px;          /* Adds space inside each list item */
+    border: 1px solid #ddd; /* Adds a border around the <li> */
+    background-color: #f4f4f4; /* Optional background color for <li> */
+    border-radius: 5px;     /* Optional rounded corners */
+  }
+  
+  /* Style for the <span> inside each <li> */
+  .items .item-label {
+    font-weight: bold;      /* Makes the text in the <span> bold */
+    color: #008cff;         /* Adds color to the label text (blue) */
+    margin-right: 8px;      /* Adds space between the <span> and the rest of the text */
+  }
+
+  /* Style for the <span> inside each <li> */
+  .items .item-val {      
+    color: #008cff;         /* Adds color to the label text (blue) */
+    margin-right: 8px;      /* Adds space between the <span> and the rest of the text */
+  }
