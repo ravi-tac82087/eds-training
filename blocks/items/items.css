@@ -29,8 +29,9 @@
     margin-right: 8px;      /* Adds space between the <span> and the rest of the text */
   }
 
-  /* Style for the <span> inside each <li> */
-  .items .item-val {      
-    color: #008cff;         /* Adds color to the label text (blue) */
-    margin-right: 8px;      /* Adds space between the <span> and the rest of the text */
-  }
+    /* Style for the <span> inside each <li> */
+    .items .item-val {
+       
+        color: #008cff;         /* Adds color to the label text (blue) */
+        margin-right: 8px;      /* Adds space between the <span> and the rest of the text */
+      }
